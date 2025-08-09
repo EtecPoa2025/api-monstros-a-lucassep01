@@ -1,3 +1,60 @@
+/* Menu */
+.menu {
+    width: 100%;
+    background: #141313a8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 12px 0 8px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu-title {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 32px;
+    padding: 6px 18px;
+    border-radius: 5px;
+}
+.menu-title:hover{
+        background: #447;
+    color: #fff;
+}
+
+.menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-right: 32px;
+    padding: 6px 18px;
+    border-radius: 5px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.menu-input {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 32px;
+    background: #fff;
+    color: #333;
+    transition: background 0.2s, color 0.2s;
+}
+.menu-input:focus {
+    outline: none;
+    background: #e0e0e0;
+}
+.menu-link:hover {
+    background: #447;
+    color: #fff;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #f4f4f9 url('https://images.hive.blog/DQmXfW33cKHuJyA3bBSypLujcQDeqXRmba857h3tJWV3sF1/tumblr_ll6dzx0cjI1qfdig2o1_500_large.gif') no-repeat center center fixed;
@@ -22,6 +79,7 @@ h1 {
     background: #141313a8;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    color: #eee;
 }
 
 #listaMonstros li {

@@ -1,7 +1,41 @@
 [
     {
         "id": 1,
+        "nome": "Goddblin",
+        "imagem": "https://distortionsunlimited.com/cdn/shop/files/goblin-legend-prop-sq.jpg?v=1737397465",
+        "descricao": "Uma criatura pequena e astuta, conhecida por emboscadas.",
+        "tipo_criatura": "Humanoide",
+        "pontos_vida": 10,
+        "ataque": 5,
+        "defesa": 2,
+        "habitat": "Masmorras e florestas"
+    },
+    {
+        "id": 2,
+        "nome": "Dragão Vermelho",
+        "imagem": "https://thumbs.dreamstime.com/b/feche-um-grande-drag%C3%A3o-vermelho-com-escalas-e-olhos-brilhantes-criatura-misteriosa-monstro-r%C3%A9ptil-da-besta-assustadora-380632620.jpg",
+        "descricao": "Uma fera colossal que cospe fogo, temida por reinos.",
+        "tipo_criatura": "Besta",
+        "pontos_vida": 200,
+        "ataque": 50,
+        "defesa": 30,
+        "habitat": "Montanhas vulcânicas"
+    },
+    {
+        "id": 3,
+        "nome": "Esqueleto",
+        "imagem": "https://cdn.pixabay.com/photo/2023/05/06/12/30/death-7974213_640.jpg",
+        "descricao": "Restos animados de guerreiros caídos, empunham espadas enferrujadas.",
+        "tipo_criatura": "Morto-vivo",
+        "pontos_vida": 15,
+        "ataque": 7,
+        "defesa": 3,
+        "habitat": "Cemitérios e ruínas"
+    },
+    {
+        "id": 4,
         "nome": "James P. Sullivan",
+        "imagem": "https://www.shutterstock.com/shutterstock/photos/98138216/display_1500/stock-photo-monsters-inc-character-james-p-sullivan-at-the-world-premiere-of-disney-pixar-s-monsters-inc-98138216.jpg",
         "descricao": "Monstro gigante similar a um minotauro peludo com dois chifres na cabeça. Ele tem imensa massa de gordura e pelos azulados com manchas púrpuras. Seus pés e mãos possuem pequenas garras além de dentes afiados escondidos dentro da boca. Seu rabo é grosso e pontudo igual ao de um dinossauro. Ele mede 2,28 m e pesa 360 kg.",
         "tipo_criatura": "Minotauro Peludo",
         "pontos_vida": 15,

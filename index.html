@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monstros da API</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Lista de Monstros</h1>
+    <nav class="menu">
+        <p class="menu-title">Monstros API</p>
+        <a href="#" id="lista" class="menu-link">lista de monstros</a>
+        <a href="#" id="aleatorio" class="menu-link">monstro aleatório</a>
+        <input type="text" id="filtro_by_id" placeholder="Filtrar por id do monstro" class="menu-input">
+    </nav>
     <ul id="listaMonstros">
     </ul>
     <script src="script.js"></script>
